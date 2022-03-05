@@ -1,0 +1,335 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+.navbar-nav > .nav-item:hover a {
+  color: #f25454 !important;
+}
+.navbar-nav > li :hover i {
+  color: #f25454 !important;
+}
+.navbar {
+  width: 100%;
+}
+@media screen and (min-width: 200px) and (max-width: 800px) {
+  .navbar {
+    width: 100%;
+    position: fixed;
+  }
+}
+
+.sect1-header {
+  background-image: url(../images/images/Home/slideshow-1.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.sect1-header2 {
+  background-image: url(../images/images/Home/slideshow-2.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.sect1-header3 {
+  background-image: url(../images/images/Home/slideshow-3.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.sec1-h1 h1 {
+  font-size: 70px;
+  width: 430px;
+  text-align: center;
+}
+.settings {
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  z-index: 99;
+  top: 150px;
+}
+.bt1 {
+  width: 50px;
+  height: 50px;
+  top: 300px;
+  left: 0px;
+}
+.bt2 {
+  width: 50px;
+  height: 50px;
+  top: 350px;
+  left: 0;
+}
+.slider {
+  width: 30px;
+  height: 50px;
+
+  z-index: 99;
+  bottom: 5%;
+  -webkit-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+}
+.round {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+}
+.sec2-header h2 {
+  font-size: 6rem;
+  color: #f1f1f1f8;
+}
+
+.sec2-header h3 {
+  font-size: 3rem;
+}
+.sec2-tap {
+  width: 50px;
+  height: 2px;
+  background-color: black;
+  -webkit-transition: width 1s;
+  -o-transition: width 1s;
+  transition: width 1s;
+}
+.section-2:hover .sec2-tap {
+  width: 100px;
+}
+.sec2-p1 {
+  text-align: center;
+  width: 80%;
+
+  margin: auto;
+}
+.progress {
+  height: 10px;
+}
+
+.progress-bar {
+  background-color: #f25454;
+  height: 10px;
+  line-height: 20px;
+}
+.sec3-header h2 {
+  font-size: 6rem;
+  color: #f1f1f1f1;
+}
+.sec3-header h3 {
+  font-size: 3rem;
+}
+.sec3-tap {
+  width: 50px;
+  height: 2px;
+  background-color: black;
+  -webkit-transition: width 1s;
+  -o-transition: width 1s;
+  transition: width 1s;
+}
+
+.section3:hover .sec3-tap {
+  width: 100px;
+}
+
+.sec3 {
+  overflow: hidden;
+}
+.sec3 img {
+  overflow: hidden;
+  height: 83%;
+  -webkit-transition: -webkit-transform 1s 0.5s;
+  transition: -webkit-transform 1s 0.5s;
+  -o-transition: transform 1s 0.5s;
+  transition: transform 1s 0.5s;
+  transition: transform 1s 0.5s, -webkit-transform 1s 0.5s;
+}
+
+.se3-layer i {
+  color: #fff;
+  font-size: 20px;
+}
+.se3-layer {
+  overflow: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+  height: 83%;
+  background-color: rgba(242, 84, 84, 0.85);
+}
+.sec3:hover .se3-layer {
+  opacity: 1;
+  height: 83%;
+}
+@media screen and(min-width:0px) and (max-width: 768px) {
+  .sec3:hover .se3-layer {
+    height: 40rem;
+  }
+}
+.sec3:hover img {
+  -webkit-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+}
+.sec3:hover h6 {
+  color: rgba(242, 84, 84, 0.85);
+}
+.sec4 h3 {
+  font-size: 40px;
+}
+.sec4-btn {
+  background-color: rgba(242, 84, 84, 0.85);
+  color: #fff;
+}
+
+.sec5 h2 {
+  font-size: 6rem;
+  color: #f1f1f1f1;
+}
+.sec5 h3 {
+  font-size: 3rem;
+}
+.sec5-tap {
+  width: 50px;
+  height: 2px;
+  background-color: black;
+  -webkit-transition: width 1s;
+  -o-transition: width 1s;
+  transition: width 1s;
+}
+.section5:hover .sec5-tap {
+  width: 100px;
+}
+.sec5-icons ul i {
+  margin-right: 10px;
+  font-size: 1.8rem;
+  margin-top: 8px;
+  color: #f25454;
+}
+.sec5-icons li {
+  margin-left: 10px;
+}
+.sec5-icons p {
+  margin-top: 15px;
+  margin-left: 20px;
+  color: #666;
+}
+.fa-ul > li > h3 {
+  font-size: 25px;
+}
+.fa-ul h3 {
+  -webkit-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  transition: color 0.2s;
+}
+.fa-ul > li:hover h3 {
+  color: #f25454;
+}
+
+.sec6 h2 {
+  font-size: 6rem;
+  color: #f1f1f1f1;
+}
+.sec6 h3 {
+  font-size: 3rem;
+}
+.sec6-tab {
+  width: 50px;
+  height: 2px;
+  background-color: black;
+  -webkit-transition: width 1s;
+  -o-transition: width 1s;
+  transition: width 1s;
+}
+.section6:hover .sec6-tab {
+  width: 100px;
+}
+.sec6-btn > button span {
+  background-color: #f25454;
+}
+.sec7 h2 {
+  font-size: 6rem;
+  color: #f1f1f1f1;
+}
+.sec7 h3 {
+  font-size: 2.5rem;
+}
+.sec7-tap {
+  width: 50px;
+  height: 2px;
+  background-color: black;
+  -webkit-transition: width 1s;
+  -o-transition: width 1s;
+  transition: width 1s;
+}
+.section7:hover .sec7-tap {
+  width: 100px;
+}
+.sec7-tap2 {
+  height: 2px;
+  background-color: #f1f1f1f1;
+}
+.sec7-icons ul i {
+  color: #f25454;
+  font-size: 40px;
+}
+.sec7-btn {
+  color: #fff;
+  background-color: #f25454;
+}
+.section8 {
+  background-color: #222;
+}
+.sec8-cont h3 {
+  font-size: 20px;
+}
+.sec8-cont p {
+  color: #b0b0b0;
+  margin-bottom: 5px;
+}
+.sec8-cont a {
+  text-decoration: none;
+}
+.sec8-cont > a:hover p {
+  color: #f25454;
+}
+.sec8-button > a > button {
+  margin-right: 10px;
+}
+.sec8-button > a:hover button {
+  color: #f25454 !important;
+  border-color: #f25454 !important;
+}
+.sec8-arrow {
+  width: 50px;
+  height: 50px;
+  top: -20px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: rgba(242, 84, 84, 0.5);
+  -webkit-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+.sec8-arrow:hover {
+  background-color: #f25454;
+}
+.foot {
+  background: #1a1a1a;
+}
+.foot-icons > a {
+  text-decoration: none !important;
+  color: #fff;
+  margin-right: 25px;
+}
+.foot-icons > a > i {
+  font-size: 18px;
+}
+
+.foot-icons > a:hover i {
+  color: #f25454;
+}
+
+.foot-a > a:hover p {
+  color: #f25454;
+}
